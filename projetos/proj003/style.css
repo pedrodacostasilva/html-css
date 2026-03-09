@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root {
+    --fonte1: "Passion One", sans-serif;
+    --fonte2: "Sriracha", cursive;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -12,6 +18,8 @@ header {
 header h1 {
     margin: 0px;
     font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 10vw;
 }
 #milton {
     text-decoration: none;
@@ -32,6 +40,8 @@ section {
     padding: 10vh 0px 10vh 0px;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 4vw;
 }
 section.fbranco {
     background-color: white;
@@ -46,6 +56,9 @@ section.imagem > p {
     width: 400px;
     padding: 5px;
     border-radius: 10px;
+}
+.p2 {
+    padding-top: 10vh;
 }
 footer {
     text-align: center;
