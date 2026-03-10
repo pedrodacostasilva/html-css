@@ -25,42 +25,62 @@ header h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
 }
+img.bola {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
 h1 {
   margin: 0;
 }
 body {
-    margin: 0%;
+    margin: 0;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    text-align:center
 }
 .title {
     text-align: center;
-    font-size: 50px;
+    font-size: 6vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 div {
-  width: 800px;
-  margin: 0 auto;
-  text-align: justify;
+  width: 80vw;
+  margin: auto;
+  text-align:center;
 }
 p {
     text-align: justify;
-    font-size: 24px;
+    font-size: 3vw;
     margin-bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     border-radius: 20px;
-    text-align: center;
     margin-bottom: 60px;
+    background-image: radial-gradient(ellipse, #ff4500, #cc3700);
+    transition: all 0.5s;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.botao {
+    text-align: center;
 }
 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -69,9 +89,9 @@ h2 {
 footer {
     background-color: #651b00;
     padding: 20px;
-    margin-bottom: 50px;
 }
 footer p {
+    display: inline-block;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 80px;
