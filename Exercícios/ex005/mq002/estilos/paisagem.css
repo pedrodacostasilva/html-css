@@ -1,1 +1,7 @@
 /* aparelho paisagem (ladscape) */
+
+body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    width: 100vw;
+    background-position: left bottom;
+}
