@@ -1,0 +1,26 @@
+/* Typical Device Breakpoints 2026
+----------------------------------
+Celulares pequenos: até 480px
+Smartphones modernos: de 480px até 768px
+Tablets e iPads: 768px até 1024px
+Laptops e Desktops: 1024px até 1440px
+Grandes telas (4K/Ultrawide): acima de 1440px
+*/
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 600px;
+    }
+}
