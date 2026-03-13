@@ -1,0 +1,44 @@
+/* Outros dispositivos */
+
+/* Typical Device Breakpoints 2026
+----------------------------------
+Celulares pequenos: até 480px 
+Smartphones modernos: de 480px até 768px (Essa parte já está feita)
+Tablets e iPads: 768px até 1024px
+Laptops e Desktops: 1024px até 1440px
+Grandes telas (4K/Ultrawide): acima de 1440px
+*/
+
+/* TABLET */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; } 
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
+/* DESKTOP */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; } 
+    img#pc { display: block; }
+    img#tv { display: none; }
+}
+/* GRANDES TELAS */
+@media screen and (min-width: 1440px){
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; } 
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
